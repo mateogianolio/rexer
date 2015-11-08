@@ -2,6 +2,23 @@
 
 Generate matching strings from regular expressions.
 
+```bash
+$ npm install rex [-g]
+```
+
+### Usage
+
+```bash
+rex <pattern[, pattern[, ...]]>
+```
+
+```javascript
+var rex = require('rex');
+var matches = rex(pattern[, pattern[, ...]]);
+```
+
+Arguments are automatically concatenated, so `rex a b` is equivalent to `rex ab`. The same applies when used as a module.
+
 ### Works for
 
 * [x] **literals**,
