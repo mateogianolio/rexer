@@ -1,9 +1,9 @@
-# rex
+# rexer
 
 Generate matching strings from regular expressions.
 
 ```bash
-$ npm install rex [-g]
+$ npm install rexer [-g]
 ```
 
 ### Usage
@@ -13,7 +13,7 @@ rex <pattern[, pattern[, ...]]>
 ```
 
 ```javascript
-var rex = require('rex');
+var rex = require('rexer');
 var matches = rex(pattern[, pattern[, ...]]);
 ```
 
