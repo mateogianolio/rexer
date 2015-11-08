@@ -1,0 +1,32 @@
+{
+  "name": "rex",
+  "version": "0.1.0",
+  "description": "Generate matching strings from regular expressions.",
+  "license": "MIT",
+  "keywords": [
+    "rex",
+    "regex",
+    "generator"
+  ],
+  "main": "rex.js",
+  "bin": {
+    "rex": "./rex.js"
+  },
+  "author": "Mateo Gianolio",
+  "dependencies": {
+    "regexp": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/mateogianolio/rex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mateogianolio/rex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mateogianolio/rex/issues"
+  }
+}
