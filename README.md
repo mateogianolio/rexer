@@ -29,5 +29,5 @@ $ rex "(hi|bye) world"
 
 * [ ] **quantifiers**,
 * [ ] **special characters**,
-* [ ] **backreferences (possible?)**
-* [ ] and **lookaheads (possible?)**.
+* [ ] **backreferences** (?)
+* [ ] and **lookaheads** (?).
